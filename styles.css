@@ -31,3 +31,12 @@ body {
     height: 600px; /* Maintain aspect ratio */
     object-fit: cover; /* Ensure images cover the entire container */
   }
+
+  #suppliesForm {
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
