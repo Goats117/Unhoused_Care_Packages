@@ -95,8 +95,67 @@
 
 
       <h1 class="calc">Care Package Calculator</h1>
+      <p class="mx-auto fs-5 text-muted">
+        Enter in your current supplies and the calculator will tell you how many packages you can make!
+      </p>
+      
 
-<button id="calculateButton">Calculate</button>
+<!-- <button id="calculateButton">Calculate</button> -->
+
+<!-- Add a form for user input -->
+<form id="suppliesForm" class="row g-3">
+  <div class="col-md-4">
+    <label for="water" class="form-label">Water Bottles:</label>
+    <input type="number" id="water" name="water" class="form-control" required>
+  </div>
+  <div class="col-md-4">
+    <label for="nail" class="form-label">Nail Clippers:</label>
+    <input type="number" id="nail" name="nail" class="form-control" required>
+  </div>
+  <div class="col-md-4">
+    <label for="balm" class="form-label">Lip Balms:</label>
+    <input type="number" id="balm" name="balm" class="form-control" required>
+  </div>
+  <div class="col-md-4">
+    <label for="bag" class="form-label">Gallon Bags:</label>
+    <input type="number" id="bag" name="bag" class="form-control" required>
+  </div>
+  <div class="col-md-4">
+    <label for="warmers" class="form-label">Hand Warmers:</label>
+    <input type="number" id="warmers" name="warmers" class="form-control" required>
+  </div>
+  <div class="col-md-4">
+    <label for="socks" class="form-label">Socks:</label>
+    <input type="number" id="socks" name="socks" class="form-control" required>
+  </div>
+  <div class="col-md-4">
+    <label for="crackers" class="form-label">Crackers:</label>
+    <input type="number" id="crackers" name="crackers" class="form-control" required>
+  </div>
+  <div class="col-md-4">
+    <label for="tuna" class="form-label">Tuna:</label>
+    <input type="number" id="tuna" name="tuna" class="form-control" required>
+  </div>
+  <div class="col-md-4">
+    <label for="wipes" class="form-label">Wipes:</label>
+    <input type="number" id="wipes" name="wipes" class="form-control" required>
+  </div>
+  <div class="col-md-4">
+    <label for="largeBand" class="form-label">Large Band-Aids:</label>
+    <input type="number" id="largeBand" name="largeBand" class="form-control" required>
+  </div>
+  <div class="col-md-4">
+    <label for="smallBand" class="form-label">Small Band-Aids:</label>
+    <input type="number" id="smallBand" name="smallBand" class="form-control" required>
+  </div>
+
+  <!-- Add more input fields for other supplies -->
+
+  <div class="col-12 text-center">
+    <button type="button" onclick="submitForm()" class="btn btn-primary">Submit</button>
+  </div>
+</form>
+
 
 <script src="index.js"></script>
       
