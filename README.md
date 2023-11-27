@@ -1,2 +1,2 @@
-# Unhoused_Care_Packages
+# Unhoused Care Packages
 This is a website for a charity that focuses on creating seasonal care packages for the unhoused in our area
