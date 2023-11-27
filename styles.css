@@ -1,7 +1,33 @@
-/* body {
+/* styles.css */
+
+body {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    max-height: 100vh;
-    max-width: 100vw;
-} */
+    text-align: center;
+  }
+  
+  .calc {
+    margin-top: 50px; /* Adjust the margin-top as needed */
+    margin-bottom: 15px;
+  }
+  
+  #calculateButton {
+    margin-top: 20px; /* Adjust the margin-top as needed */
+    margin-bottom: 20px;
+    border-radius: 0%;
+  }
+  
+
+  #carouselExampleIndicators {
+    max-height: 600px; /* Adjust the height as needed */
+    max-width: 600px;
+    overflow: hidden; /* Hide overflow to prevent resizing flicker */
+  }
+  
+  /* Ensure all images inside the carousel have consistent dimensions */
+  #carouselExampleIndicators img {
+    width: 600px; /* Make images fill the container width */
+    height: 600px; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure images cover the entire container */
+  }
