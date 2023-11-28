@@ -1,42 +1,65 @@
-/* styles.css */
+/* Existing CSS rules */
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .calc {
-    margin-top: 50px; /* Adjust the margin-top as needed */
-    margin-bottom: 15px;
-  }
-  
-  #calculateButton {
-    margin-top: 20px; /* Adjust the margin-top as needed */
-    margin-bottom: 20px;
-    border-radius: 0%;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
-  #carouselExampleIndicators {
-    max-height: 600px; /* Adjust the height as needed */
-    max-width: 600px;
-    overflow: hidden; /* Hide overflow to prevent resizing flicker */
-  }
-  
-  /* Ensure all images inside the carousel have consistent dimensions */
-  #carouselExampleIndicators img {
-    width: 600px; /* Make images fill the container width */
-    height: 600px; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure images cover the entire container */
-  }
+.calc {
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
 
-  #suppliesForm {
-    max-width: 400px;
-    margin: 20px auto;
-  }
-  
-  .form-group {
-    margin-bottom: 15px;
-  }
+#calculateButton {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 0%;
+}
+
+#carouselExampleIndicators {
+  max-height: 600px;
+  max-width: 600px;
+  overflow: hidden;
+  color: black;
+}
+
+#carouselExampleIndicators img {
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+}
+
+#suppliesForm {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.center-image {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Add this CSS to limit the maximum width of the carousel images on mobile */
+.carousel-inner img {
+  max-width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
